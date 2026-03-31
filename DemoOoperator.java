@@ -39,5 +39,35 @@ public class DemoOoperator {
     double todaySalary = hourRate * hoursPerDay;
     System.out.println(todaySalary);
     
+    // pre // post 
+    int g = 10; 
+    g++; 
+    ++g;
+
+
+    //post ++ g*2 first 
+    int k = g++ * 2;
+    System.out.println(k); //24 (x2 first, then assign , then ++)
+    System.out.println(g); //13
+    //pre ++
+    int p = 10;
+    int k2 = ++p * 2;
+    System.out.println(k2);//22
+    System.out.println(p); //11
+
+    // another presentation for post ++
+    int h = 10;
+    // int y =h++ *2;
+    int y = h * 2;
+    System.out.println(h);
+    System.out.println(y);
+
+    // another presentation for pre ++
+    int j = 10;
+    // int e = ++j * 2;
+    ++j;
+    int e = j * 2;
+    System.out.println(e);//22
+    System.out.println(j);//11
   }
 }
