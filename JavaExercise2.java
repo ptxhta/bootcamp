@@ -51,7 +51,7 @@ public class JavaExercise2 {
         // ==================== Question 4: String equals ====================
         String language = "Java";
 
-        if ( language.equals("Java") /* 填條件：language 係 "Java" */) {
+        if ( language.equals("Java") /* 填條件：language 係 "Java" */  ) {
             System.out.println("We are learning the best programming language!");
         } else if (language.equals("Python") /* 填條件：language 係 "Python" */) {
             System.out.println("Python is also very popular.");
