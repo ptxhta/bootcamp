@@ -1,4 +1,4 @@
-public class DemoOoperator {
+public class DemoOperator {
   public static void main(String[] args) {
     // + = * /
 

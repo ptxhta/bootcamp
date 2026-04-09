@@ -8,7 +8,6 @@ public class DemoIf {
     } else{
       System.out.println("child");
     }
-
     if (age >=18){
       System.out.println("hello");
     }
@@ -30,7 +29,7 @@ public class DemoIf {
       System.out.println("Fee = 2");
     }
 
-
+    
     age = 70;
     boolean isElderly = age > 65; //true
     if (isElderly){

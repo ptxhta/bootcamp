@@ -73,21 +73,21 @@ public class DemoLoop {
     // "725094849"
     // Find the largest index of the largest digit
     //8 
-    String s = "725094849" ;
+    String s6 = "725094849";
     int maxDigit = -1;
     int maxIndex = -1;
-    for (int i = 0; i < s.length(); i++){
-      int digit = s.charAt(i) - '0'; // 變身做真數字
-    }if (digit >= maxDigit) { 
+    for (int i = 0; i < s6.length(); i++){
+      int digit = s6.charAt(i) - '0';
+      if (digit > maxDigit){
         maxDigit = digit;
-        maxIndex = i; // 每次見到「一樣大」或者「更大」嘅數，都更新位置
+        maxIndex = i;
+      } 
     }
-    }
-    System.out.println("Largest Index: " + maxIndex);
-
-
+    System.out.println(maxDigit);
+    System.out.println(maxIndex);
 
 
 
   }
 }
+
