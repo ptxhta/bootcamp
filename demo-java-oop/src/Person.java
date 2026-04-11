@@ -5,6 +5,17 @@ public class Person {
   private double height; //m
   private double weight; //kg
 
+  public Person(){
+
+  }
+
+  //Creating objecct...
+  public Person (String name, double height, double weight){
+    this.name = name;
+    this.height = height;
+    this.weight = weight;
+  }
+
 
   public boolean isOverWeight(){
     if (this.weight >100){
